@@ -10,13 +10,7 @@ namespace Common
         {
             var sb = new StringBuilder();
             sb.Append('[');
-            foreach (var item in list)
-            {
-                sb.Append(item);
-                sb.Append(',');
-            }
-
-            sb.Remove(sb.Length - 1, 1);
+            sb.AppendJoin(',', list);
             sb.Append(']');
             return sb.ToString();
         }

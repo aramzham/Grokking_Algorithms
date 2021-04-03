@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumByRecursion", "SumByRecursion\SumByRecursion.csproj", "{CA332990-64B1-49E2-8611-F793DEBEC3FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountByRecursion", "CountByRecursion\CountByRecursion.csproj", "{43619B2B-4E02-420A-B077-D8CF2591C243}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CA332990-64B1-49E2-8611-F793DEBEC3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA332990-64B1-49E2-8611-F793DEBEC3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA332990-64B1-49E2-8611-F793DEBEC3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43619B2B-4E02-420A-B077-D8CF2591C243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43619B2B-4E02-420A-B077-D8CF2591C243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43619B2B-4E02-420A-B077-D8CF2591C243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43619B2B-4E02-420A-B077-D8CF2591C243}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
