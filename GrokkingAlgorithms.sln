@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{FAF94B3C-2322-4524-917A-D9D3B20AAE3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumByRecursion", "SumByRecursion\SumByRecursion.csproj", "{CA332990-64B1-49E2-8611-F793DEBEC3FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FAF94B3C-2322-4524-917A-D9D3B20AAE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAF94B3C-2322-4524-917A-D9D3B20AAE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAF94B3C-2322-4524-917A-D9D3B20AAE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA332990-64B1-49E2-8611-F793DEBEC3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA332990-64B1-49E2-8611-F793DEBEC3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA332990-64B1-49E2-8611-F793DEBEC3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA332990-64B1-49E2-8611-F793DEBEC3FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
