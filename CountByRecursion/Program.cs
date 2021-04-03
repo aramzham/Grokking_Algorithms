@@ -11,8 +11,8 @@ namespace CountByRecursion
             while (true)
             {
                 var array = RandomGenerator.GetRandomArray(0, 10, RandomGenerator.GetRandomNumber(0, 11));
-                var sum = Count(array);
-                Console.WriteLine($"{array.Stringify()}.Sum() = {sum}");
+                var count = Count(array);
+                Console.WriteLine($"{array.Stringify()}.Count() = {count}");
                 Thread.Sleep(1000);
             }
         }
