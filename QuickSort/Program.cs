@@ -23,13 +23,21 @@ namespace QuickSort
             if (array.Length < 2)
                 return array;
 
-            var pivot = array[0]; // not the best choice as complexion may grow up to O(n x n) depending on it
-            var lessThans = GetLessOnes(array, pivot);
-            var greaterOrEqualThans = GetGreaterOrEqualOnes(array, pivot);
-            return Merge(QSort(lessThans), new[] { pivot }, QSort(greaterOrEqualThans));
+            // var pivot = array[0]; // not the best choice as complexion may grow up to O(n x n) depending on it
+            var pivotTuple = GetRandomPivot(array); // this will bring our average (pivot, index)
+            var lessThans = GetLessOnes(array, pivotTuple.Item1);
+            var greaterOrEqualThans = GetGreaterOrEqualOnes(array, pivotTuple);
+            return Merge(QSort(lessThans), new[] { pivotTuple.Item1 }, QSort(greaterOrEqualThans));
         }
 
-        private static int[] GetGreaterOrEqualOnes(int[] array, int pivot) => array.Where((x, i) => x >= pivot && i != 0).ToArray();
+        private static (int, int) GetRandomPivot(int[] array)
+        {
+            var index = RandomGenerator.GetRandomNumber(0, array.Length);
+            var pivot = array[index];
+            return (pivot, index);
+        }
+
+        private static int[] GetGreaterOrEqualOnes(int[] array, (int, int) pivotTuple) => array.Where((x, i) => x >= pivotTuple.Item1 && i != pivotTuple.Item2).ToArray();
 
         private static int[] GetLessOnes(int[] array, int pivot) => array.Where(x => x < pivot).ToArray();
 
