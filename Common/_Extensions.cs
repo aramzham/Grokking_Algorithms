@@ -17,9 +17,11 @@ namespace Common
 
         public static T[] SubArray<T>(this T[] array, int offset, int length)
         {
-            T[] result = new T[length];
-            Array.Copy(array, offset, result, 0, length);
-            return result;
+            //T[] result = new T[length];
+            //Array.Copy(array, offset, result, 0, length);
+            //return result;
+
+            return offset + length >= array.Length - 1 ? array[offset..] : array[offset..(length + offset - 1)];
         }
     }
 }
