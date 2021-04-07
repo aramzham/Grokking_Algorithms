@@ -6,6 +6,11 @@ namespace CustomHashTable
     {
         private readonly LinkedList<int> _linkedList = new LinkedList<int>();
 
+        public Slot()
+        {
+            
+        }
+
         public void Add(int item)
         {
             _linkedList.AddLast(item);
