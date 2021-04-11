@@ -5,6 +5,8 @@ namespace BreadthFirstSearch
 {
     class Program
     {
+        // Breadth-first search tells you if there's a path from A to B
+        // If there's a path, breadth-first search will find the shortest path
         static void Main(string[] args)
         {
             var graph = new Dictionary<string, List<string>>
