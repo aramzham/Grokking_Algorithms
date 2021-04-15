@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxByRecursion", "MaxByRecu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchByRecursion", "BinarySearchByRecursion\BinarySearchByRecursion.csproj", "{C6933CDB-D459-410E-90FF-B5B45E230AD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{B6E88813-BF84-404F-9932-A078056699C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{B6E88813-BF84-404F-9932-A078056699C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstSearch", "BreadthFirstSearch\BreadthFirstSearch.csproj", "{CEDEE9DD-6B18-419B-A0F8-D2A768438CF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadthFirstSearch", "BreadthFirstSearch\BreadthFirstSearch.csproj", "{CEDEE9DD-6B18-419B-A0F8-D2A768438CF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra'sAlgorithmImplementation", "Dijkstra'sAlgorithmImplementation\Dijkstra'sAlgorithmImplementation.csproj", "{D859E682-9191-4827-AB19-BB88280188C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dijkstra'sAlgorithmImplementation", "Dijkstra'sAlgorithmImplementation\Dijkstra'sAlgorithmImplementation.csproj", "{D859E682-9191-4827-AB19-BB88280188C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetCoveringProblem", "SetCoveringProblem\SetCoveringProblem.csproj", "{F8306793-5063-4213-B185-820E3964EB6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{D859E682-9191-4827-AB19-BB88280188C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D859E682-9191-4827-AB19-BB88280188C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D859E682-9191-4827-AB19-BB88280188C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8306793-5063-4213-B185-820E3964EB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8306793-5063-4213-B185-820E3964EB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8306793-5063-4213-B185-820E3964EB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8306793-5063-4213-B185-820E3964EB6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
